@@ -1,1 +1,0 @@
-var url="https://api.minetools.eu/ping/bridnecreaft.pl";$.getJSON(url,function(r){if(r.error){$('#rest').html('0');return false;}else{$('#rest').html(''+r.players.online+'');}});
